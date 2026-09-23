@@ -1,0 +1,35 @@
+
+
+
+body {
+    color:#FFFFFF;
+    background-color: #1695A3;
+}
+
+p {
+    color: #EB7F00;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 100px;
+    padding: 5%;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+}
+
+ol {
+    color: beige;
+}
