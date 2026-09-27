@@ -7,7 +7,7 @@
 body {
     color: #26241C;
     background-color: #F2F0D8;
-    font-family: EB Garamond;
+    text-align: center;
 }
 
 header {
@@ -26,7 +26,17 @@ header nav a {
     text-align: center;
 }
 
-h2{
+h2, h3 {
     margin-bottom: 25px;
 }
 
+h4{
+     font-weight: 500;
+}
+p {
+    font-size: x-small;
+}
+
+body img {
+    align-content: center;
+}
