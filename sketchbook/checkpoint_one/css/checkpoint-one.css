@@ -5,7 +5,7 @@
 }
 
 body {
-
+  font-family: Cormorant Garamond;
     color: #26241C;
     background-color: #F2F0D8;
 }
@@ -22,16 +22,6 @@ header nav a {
     text-decoration: none;
 }
 
-
 #title {
     text-align: center;
-}
-
-h1, h2{
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-#assignments {
-    margin: 10px 100px 100px 10px; 
 }

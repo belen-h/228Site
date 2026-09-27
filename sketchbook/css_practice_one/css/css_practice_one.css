@@ -45,3 +45,8 @@ hr {
 ol {
     color: beige;
 }
+
+#reflection p {
+    font-size: medium;
+    color: black;
+}
