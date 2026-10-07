@@ -1,0 +1,106 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+body {
+    background-color: lightblue;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a {
+    font-family: josefin sans;
+    color: #047F8C;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px 70px 10px 70px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: josefin sans;
+    margin: 50px 10px 0px 10px;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #3A400C;
+}
+
+.wrap{
+    padding: 10px 50px 10px 50px;
+}
+
+.wrap img{
+    width: 100%;
+}
+
+h3{
+    margin-top: 55px;
+    font-family: josefin sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #047F8C;
+}
+
+h2{
+    font-family: lato;
+    font-size: 22.5px;
+    font-weight: 700;
+}
+
+p{
+    font-family: lato;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+
+aside img{
+    width: 30%;
+    height: auto;
+}
+/* I'm not sure how to make the images stack */
+
+ul {
+    font-family: josefin sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3A400C;
+}
+
+footer{
+    background-color: #04ADBF;
+    text-align: center;
+}
+
+footer a {
+    font-family: josefin sans;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #3A400C;
+}
+
+footer p{
+
+    padding-bottom: 50px;
+}
+
+footer p a {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: lowercase;
+    color: #3A400C;
+}
