@@ -8,13 +8,13 @@ body {
 
 header {
     margin-top: 25px;
-    text-align: right;
+    text-align: left;
 }
 
 header nav a {
     margin: 10px 50px 100px 10px; 
     text-transform: uppercase;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 

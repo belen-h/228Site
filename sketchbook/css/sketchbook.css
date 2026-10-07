@@ -5,7 +5,6 @@
 }
 
 body {
-
     color: #26241C;
     background-color: #F2F0D8;
     font-family: Cormorant Garamond;
@@ -13,19 +12,29 @@ body {
 
 header {
     margin-top: 25px;
-    text-align: right;
+    text-align: center;
+}
+
+#nameLogo {
+    margin-bottom: 25px;
+    font-size: 52px;
 }
 
 header nav a {
-    margin: 10px 50px 100px 10px; 
-   text-transform: uppercase;
+    padding: 5px;
+    margin: 60px;
+    text-transform: uppercase;
     color: black;
     text-decoration: none;
 }
 
+nav a:hover{
+    color: red;
+}
 
 #title {
     text-align: center;
+    color: rgb(54, 58, 75);
 }
 
 h1, h2{
