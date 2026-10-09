@@ -10,6 +10,14 @@ body {
     font-family: Cormorant Garamond;
 }
 
+section{
+    padding: 35px;
+}
+
+section img{
+    align-content: center;
+    width: 60%;
+}
 header {
     margin-top: 25px;
     text-align: center;
@@ -18,10 +26,13 @@ header {
 #nameLogo {
     margin-bottom: 25px;
     font-size: 52px;
+    text-decoration: none;
+    text-transform: lowercase;
 }
 
 header nav a {
-    padding: 80px;
+    padding: 5px;
+    margin: 60px;
     text-transform: uppercase;
     color: black;
     text-decoration: none;
@@ -33,10 +44,11 @@ nav a:hover{
 
 #title {
     text-align: center;
+    color: rgb(54, 58, 75);
 }
 
-section{
-    padding: 35px;
+h2{
+    margin-bottom: 25px;
 }
 
 h3{

@@ -5,9 +5,13 @@
 }
 
 body {
-    color: #26241C;
     background-color: #F2F0D8;
+    color: #26241C;
     font-family: Cormorant Garamond;
+}
+
+section{
+    padding: 35px;
 }
 
 header {
@@ -18,6 +22,8 @@ header {
 #nameLogo {
     margin-bottom: 25px;
     font-size: 52px;
+    text-decoration: none;
+    text-transform: lowercase;
 }
 
 header nav a {
@@ -32,17 +38,12 @@ nav a:hover{
     color: red;
 }
 
-
 #title {
     text-align: center;
     color: rgb(54, 58, 75);
 }
 
-
 h2{
     margin-bottom: 25px;
 }
 
-section{
-    padding: 35px;
-}

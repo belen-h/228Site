@@ -13,12 +13,13 @@ body {
 header {
     margin-top: 25px;
     text-align: center;
-    
 }
 
 #nameLogo {
     margin-bottom: 25px;
     font-size: 52px;
+    text-decoration: none;
+    text-transform: lowercase;
 }
 
 header nav a {
@@ -35,6 +36,7 @@ nav a:hover{
 
 #title {
     text-align: center;
+    color: rgb(54, 58, 75);
 }
 
 h2{

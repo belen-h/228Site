@@ -1,8 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    color: #26241C;
     background-color: #F2F0D8;
+    color: #26241C;
     font-family: Cormorant Garamond;
     text-align: center;
+}
+
+section{
+    padding: 35px;
 }
 
 header {
@@ -13,6 +23,8 @@ header {
 #nameLogo {
     margin-bottom: 25px;
     font-size: 52px;
+    text-decoration: none;
+    text-transform: lowercase;
 }
 
 header nav a {
