@@ -23,7 +23,7 @@ header {
 
 #nameLogo {
     font-family: edu nsw act cursive;
-    margin-bottom: 25px;
+    margin: 25px;
     font-weight: 400;
     font-size: 52px;
     text-decoration: none;
@@ -31,7 +31,7 @@ header {
 }
 
 header nav a {
-    border: .5px solid black;
+    border-bottom: .5px dotted #F2F0D8;
     margin: 25px;
     text-transform: uppercase;
     text-decoration: none;
@@ -43,12 +43,12 @@ nav a:hover{
     color: red;
 }
 
-#title {
+/* #title {
     text-align: center;
     color: rgb(54, 58, 75);
-}
-
+} */
+/* 
 h2{
     margin-bottom: 25px;
-}
+} */
 

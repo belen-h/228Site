@@ -28,6 +28,7 @@ header nav a {
     text-transform: uppercase;
     color: black;
     text-decoration: none;
+    border-bottom: .5px dotted black;
 }
 
 nav a:hover{
