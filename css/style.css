@@ -5,33 +5,37 @@
 }
 
 body {
-    background-color: #F2F0D8;
-    color: #26241C;
+    background-image: url(/img/dorm_film.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Cormorant Garamond;
+    margin: 25%;
 }
 
-section{
+/* section{
     padding: 35px;
-}
+} */
 
 header {
-    margin-top: 25px;
     text-align: center;
 }
 
 #nameLogo {
+    font-family: edu nsw act cursive;
     margin-bottom: 25px;
+    font-weight: 400;
     font-size: 52px;
     text-decoration: none;
     text-transform: lowercase;
 }
 
 header nav a {
-    padding: 5px;
-    margin: 60px;
+    border: .5px solid black;
+    margin: 25px;
     text-transform: uppercase;
-    color: black;
     text-decoration: none;
+    display: inline;
+    color: #F2F0D8;
 }
 
 nav a:hover{
