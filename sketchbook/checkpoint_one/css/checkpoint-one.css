@@ -10,20 +10,7 @@ body {
     font-family: Cormorant Garamond;
 }
 
-section{
-    margin: 15%;
-}
 
-#content img {
-    display: block;
-    width: 50%;
-    margin: auto;
-}
-
-section img{
-    align-content: center;
-    width: 60%;
-}
 header {
     margin-top: 25px;
     text-align: center;
@@ -54,6 +41,16 @@ nav a:hover{
 #title {
     text-align: center;
     color: rgb(54, 58, 75);
+    padding: 35px;
+}
+
+div{
+    margin: 10% 25%;
+}
+
+div img{
+    align-content: center;
+    width: 100%;
 }
 
 h2{
@@ -66,5 +63,5 @@ h3{
 }
 
 p{
-    font-size: 22px;
+    font-size: 24px;
 }
