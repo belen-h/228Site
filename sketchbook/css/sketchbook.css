@@ -20,7 +20,9 @@ header {
 }
 
 #nameLogo {
+    font-family: edu nsw act cursive;
     margin-bottom: 25px;
+    font-weight: 400;
     font-size: 52px;
     text-decoration: none;
     text-transform: lowercase;

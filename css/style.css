@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #F2F0D8 url("../img/dorm_film.jpg") center / cover no-repeat fixed;
+    background: #F2F0D8 url("../img/belle_desk_1.jpeg") center / cover no-repeat fixed;
     /* background-image: url(/img/dorm_film.jpg);
     background-size: cover;
     background-attachment: fixed; */
@@ -19,28 +19,36 @@ body {
 
 header {
     text-align: center;
+    color: #F2F0D8;
 }
 
 #nameLogo {
     font-family: edu nsw act cursive;
     margin: 25px;
     font-weight: 400;
-    font-size: 52px;
+    font-size: 68px;
     text-decoration: none;
     text-transform: lowercase;
 }
 
 header nav a {
     border-bottom: .5px dotted #F2F0D8;
-    margin: 25px;
+    margin: 0px 25px 25px 25px;
     text-transform: uppercase;
     text-decoration: none;
     display: inline;
     color: #F2F0D8;
+
 }
 
 nav a:hover{
     color: red;
+}
+
+h2{
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 6px;
 }
 
 /* #title {
@@ -52,3 +60,9 @@ h2{
     margin-bottom: 25px;
 } */
 
+
+/* himalayan salt    color: rgb(216, 186, 167); */
+
+/*   saltillo   color: rgb(184, 130, 98); */
+
+/* miso     color: rgb(199, 185, 130); */
