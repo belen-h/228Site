@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+nav a {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 body {
   background-color: #F2EBDC;
   color: #0d0d0d;
@@ -78,19 +82,28 @@ STEPS 1, 2 & 3 are in the index.html file
 }
 
 #lyrics {
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
+  margin: 0%;
+  padding: 2%;
+  width: 30%;
 }
 
 #album {
-  background-color: pink;
+  /* background-color: pink; */
+  margin: 0%;
+  padding: 2%;
+  width: 40%;
 }
 
 img{
-  width: 50%;
+  width: 100%;
 }
 
-/* 4. Add display: flex; to flex-container */
-/* 5. Add flex-direction: row; to flex-container; */
+/* 4.✅ Add display: flex; to flex-container */
+
+
+/* 5.✅ Add flex-direction: row; to flex-container; */
+
 /* 6. Give each column wrapper (flex item) a width in percentages, adjust margin and padding so that it is visually appealing */
 /* 
 pro-tip: it is easier to change the background color/border of individual boxes to help clarify what you are working on and to make sure you are targeting the correct html tag */
@@ -109,3 +122,17 @@ pro-tip: it is easier to change the background color/border of individual boxes 
 /* Flex item (right column hint-this is a child container) */
 
 
+section{
+  margin: 2% 30% 2% 30%;
+  width: 40;
+}
+
+section h2 {
+  padding: 5%;
+  letter-spacing: normal;
+}
+
+section p{
+  text-transform: none;
+  line-height: 1.5;
+}
