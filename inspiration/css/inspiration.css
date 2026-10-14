@@ -90,7 +90,7 @@ h3{
 }
 
 
-#attribute {
+.attribute {
     color: grey;
     font-size: 8.5px;
     padding: 0 .5% .5% .5%;
@@ -113,6 +113,7 @@ h3{
 	flex-wrap:nowrap;
     text-align: left;
 }
+
 
 
 
