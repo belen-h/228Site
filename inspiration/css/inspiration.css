@@ -86,16 +86,17 @@ h2 {
 }
 
 h3{
-    margin: 0% 5% 8% 5%;
+    margin: 0% 5% 8% 0%;
 }
 
 
 #attribute {
     color: grey;
-    font-size: 10px;
+    font-size: 8.5px;
     padding: 0 .5% .5% .5%;
     text-decoration: none;
     text-align: center;
+    font-family: ibm plex mono;
 }
 
 /* body img {
