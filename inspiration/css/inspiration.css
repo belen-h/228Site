@@ -11,6 +11,126 @@ body {
     text-align: center;
 }
 
+/*----- HEADER ---------*/
+
+#nameLogo {
+    font-family: edu nsw act cursive;
+    margin: 25px;
+    font-weight: 400;
+    font-size: 52px;
+    text-decoration: none;
+    text-transform: lowercase;
+    align-self: center;
+}
+
+header nav a {
+    padding: 5px;
+    margin: 60px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    border-bottom: .5px dotted black;
+}
+
+nav a:hover{
+    color: red;
+}
+
+#title {
+    text-align: center;
+    color: rgb(54, 58, 75);
+    padding: 7% 7% 0 7%;
+}
+
+/*----- CONTENT ---------*/
+
+section {
+    /* background-color: orange; */
+    padding: 0%;
+    /* adding */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+
+}
+
+section a{
+    text-decoration: none;
+    border: #26241C;
+}
+
+article {
+    /* border: 1px dashed black; */
+    width: 33%;
+	padding: 4.5%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:nowrap;
+    font-size: 20px;
+    line-height: 1.55;
+    text-align: center;
+}
+
+.articleImg {
+    width: 100%;
+}
+
+
+
+h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h3{
+    margin: 0% 5% 8% 5%;
+}
+
+
+#attribute {
+    color: grey;
+    font-size: 10px;
+    padding: 0 .5% .5% .5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* body img {
+    align-content: center;
+} */
+
+.reflections {
+    border: 1px dashed black;
+    font-size: 20px;
+    line-height: 1.55;
+    padding: 5% 20% 10% 20%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap:nowrap;
+    text-align: left;
+}
+
+
+
+
+/* B4 CHECKPOINT 1 REVISION */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F0D8;
+    color: #26241C;
+    font-family: Cormorant Garamond;
+    text-align: center;
+}
+
 section{
     padding: 35px;
 }
@@ -50,9 +170,14 @@ h4{
     font-weight: 500;
 }
 p {
+    font-size: 22px;
+}
+
+#attribute {
     font-size: x-small;
+    padding: 0 2.5% 3% 2.5%;
 }
 
 body img {
     align-content: center;
-}
+} */
