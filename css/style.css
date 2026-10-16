@@ -7,49 +7,62 @@
 body {
     height: 100dvh;
     background: #F2F0D8 url("../img/belle_desk_1.jpeg") center / cover no-repeat fixed;
-    /* background-image: url(/img/dorm_film.jpg);
-    background-size: cover;
-    background-attachment: fixed; */
     font-family: Cormorant Garamond;
-    padding: 25%;
+    align-content: center;
 }
 
-/* section{
-    padding: 35px;
-} */
-
-header {
-    text-align: center;
-    color: #F2F0D8;
-}
-
-#nameLogo {
-    font-family: edu nsw act cursive;
-    margin: 25px;
-    font-weight: 400;
-    font-size: 68px;
-    text-decoration: none;
-    text-transform: lowercase;
-}
-
-header nav a {
-    border-bottom: .5px dotted #F2F0D8;
-    margin: 0px 25px 25px 25px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline;
-    color: #F2F0D8;
-
-}
-
-nav a:hover{
-    color: red;
-}
-
-h2{
+h2 {
     font-size: small;
     text-transform: uppercase;
     letter-spacing: 6px;
-        text-align: center;
+    text-align: center;
     color: #F2F0D8;
+} 
+
+header {
+    color: #F2F0D8;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#nameLogo {
+    color:  #F2F0D8;
+    font-family: edu nsw act cursive;
+    margin: 10% 0% 10% 0%;
+    padding:auto;
+    font-weight: 400;
+    font-size: 52px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.nameLogo:hover {
+    color: red;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    width: 55%;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    color: red;
+}
+
+header nav a {
+    padding: 5px;
+    margin: auto;
+    text-transform: uppercase;
+    color: #F2F0D8;
+    text-decoration: none;
+    border-bottom: .5px dotted #F2F0D8;
 }
