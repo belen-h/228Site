@@ -11,35 +11,41 @@ body {
     align-content: center;
 }
 
+body a{
+    text-decoration: none;
+}
+
 h2 {
     font-size: small;
     text-transform: uppercase;
     letter-spacing: 6px;
     text-align: center;
-    color: #F2F0D8;
+    font-weight: bolder;
+    color:#F2F0D8;
 } 
 
 header {
-    color: #F2F0D8;
+    color:#F2F0D8;
     display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+    padding: 0% 0% 5% 0%;
 }
 
 #nameLogo {
-    color:  #F2F0D8;
+    color:#F2F0D8;
     font-family: edu nsw act cursive;
-    margin: 10% 0% 10% 0%;
-    padding:auto;
+    margin: 15% 0% 15% 0%;
+    /* padding:auto; */
     font-weight: 400;
-    font-size: 52px;
+    font-size: 460%;
     text-transform: lowercase;
     text-align: center;
 }
 
-.nameLogo:hover {
+#nameLogo:hover {
     color: red;
 }
 
@@ -50,19 +56,17 @@ nav {
     width: 55%;
 }
 
-header a{
-    text-decoration: none;
+header nav a {
+    padding:1%;
+    color:#F2F0D8;
+    margin: auto;
+    font-family: ibm plex mono;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: black;
+    /* border: .5px dotted rgb(150 142 96); */
 }
 
 header a:hover{
     color: red;
-}
-
-header nav a {
-    padding: 5px;
-    margin: auto;
-    text-transform: uppercase;
-    color: #F2F0D8;
-    text-decoration: none;
-    border-bottom: .5px dotted #F2F0D8;
 }
