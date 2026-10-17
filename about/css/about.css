@@ -3,10 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    height: 100vpw;
+}
+
+iframe {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/* #aboutContent {
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    place-items: center;
+} */
+
+article{
+    border: 2px #0D0D0D solid;
+    margin: 10%;
+    padding: 0 2.5% 0% 2.5%;
+    width: 50%;
+}
+
+footer {
+    padding: 90%;
+    margin: 8px;
+    text-align: center;
+    background-color: #0D0D0D;
+    
+} 
+footer h4 {
+    font-family: ibm ;
+
+}
+
+
+/* b4 v2 revision */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    color: #26241C;
     background-color: #F2F0D8;
+    color: #26241C;
     font-family: Cormorant Garamond;
 }
 
@@ -61,4 +107,4 @@ footer{
     border-style: dotted;
     padding: 20px;
     margin: 8px;
-}
+} */
