@@ -1,0 +1,112 @@
+/* -------RESET--------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------GENERAL WEBSITE STYLING------------ */
+
+body {
+    background-color: #F2F0D8;
+    color: #26241C;
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+/*---------- HEADER -------------------------*/
+
+header {
+    margin-top: 25px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/* -----------NAME / LOGO -------------------*/
+
+.nameLogo {
+    color: rgb(54, 58, 75);
+    font-family: "edu nsw act cursive";
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 52px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.nameLogo:hover {
+    color: red;
+}
+
+
+/*-------- MAIN NAVIGATION------------------*/
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    width: 55%;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header nav a {
+    padding: 1%;
+    margin: auto;
+    text-transform: uppercase;
+    background-color: black;
+    color:#F2F0D8;
+    font-family: "ibm plex mono";
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: .5px dotted black;
+}
+
+
+/*----- HOVER EFFECT----------------------- */
+
+header nav a:hover {
+    color: red;
+}
+
+/*----- PAGE TITLE----------------------- */
+
+.title {
+    text-align: center;
+    color: rgb(54, 58, 75);
+    padding: 4% 4% 4% 4%;
+}
+
+/*----- REFLECTION ---------*/
+
+.reflections {
+    border: 1px dashed black;
+    font-size: 20px;
+    line-height: 1.55;
+    padding: 5% 20% 10% 20%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap:nowrap;
+    text-align: left;
+}
+
+.reflectionImg {
+    padding: 6%;
+}
+
+.attribute {
+    color: rgb(191, 171, 143);
+    font-size: 8.5px;
+    padding: 0 .5% 8% .5%;
+    text-decoration: none;
+    text-align: center;
+    font-family: "ibm plex mono";
+}

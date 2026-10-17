@@ -1,16 +1,52 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* ----sketchbook nav ------------ */
+
+
+#sketchbookNav ul {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+
 }
 
-body {
-    background-color: #F2F0D8;
-    color: #26241C;
-    font-family: Cormorant Garamond;
+#sketchbookNav li {
+    font-style: italic;
+    font-size: 18px;
+    border-bottom: .5px dotted rgb(128 82 65);
 }
 
-section{
+
+#sketchbookNav li a {
+    text-decoration: none;
+    color: rgb(128 82 65);
+}
+
+
+#sketchbookNav li a:hover {
+    font-size: 20px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------  b4 v2 revisions ----------- */
+
+/* section{
     padding: 35px;
 }
 
@@ -53,4 +89,4 @@ h2{
 ul {
     text-align: center;
     margin: 70px 70px 70px 70px; 
-}
+} */
