@@ -5,12 +5,25 @@
 	<meta charset="UTF-8">
 	<title>Flex your Flexbox</title>
 
+	<link rel="stylesheet" href="../css/SBbreadcrumb.css">
 	<link rel="stylesheet" href="css/flexboxIRL.css">
 	<link rel="stylesheet" href="https://use.typekit.net/azk2aca.css">
+
+	 <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+NSW+ACT+Cursive:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<a href="../sketchbook.html">← Back to Sketchbook</a>
+	<nav class="sketchbookBreadcrumb">
+		<a href="../sketchbook.html">← Sketchbook</a>
+		<span>/</span>
+		<a href="../checkpoint_one/checkpoint-one.html">Checkpoint One</a>
+		<span>/</span>
+		<span>Flexbox IRL</span>
+	</nav>
+
 	<header>
 		<img id="logo" src="img/redSlow.gif" alt="Red abstract geometric logo made of four interlocking ribbon-like shapes.">
 		<h1>FlexyFlexbox</h1>
@@ -72,20 +85,21 @@
 		<h4>FlexyFooter</h4>
 	</footer>
 
-	<hr>
-	<h2>Reflection</h2>
-
-	<p>
-		I started this exercise by reviewing the HTML structure and organizing the spacing in my code so I could clearly read and better understand where the IDs and classes called out in the CSS were placed. After that, I bagan and learned that adding display: flex to a parent element turns it into a flex container, and its direct children become flex items. By default, Flexbox arranges these items in a row rather than a column.
-	</p>
-	<p>
-		One of the most interesting parts was experimenting with flex-wrap and percentage widths. I could see how these properties affected the layout when resizing the browser window. This was especially exciting because I've been wanting to make my Interactive Sketchbook more responsive to different screen sizes. 
-	</p>
-	<p>
-		While experimenting with the h1 inside the header, I used temporary background colors to see how much space the element occupied. I was surprised by how align-self affected its position. When I tried aligning it toward the bottom, the text appeared higher than I expected, while the element seemed to occupy the entire height of the header. I eventually decided to use align-self: center because it gave me the alignment I wanted.
-	</p>
-	<p>
-		I also noticed that assigning widths to the child elements changed how they behaved when wrapping. I'm still experimenting with how widths, spacing, and wrapping work together, especially when the available screen space becomes smaller.
-	</p>
+	<section class="exerciseReflection">
+		<hr>
+		<h2>Reflection</h2>
+		<p>
+			I started this exercise by reviewing the HTML structure and organizing the spacing in my code so I could clearly read and better understand where the IDs and classes called out in the CSS were placed. After that, I bagan and learned that adding display: flex to a parent element turns it into a flex container, and its direct children become flex items. By default, Flexbox arranges these items in a row rather than a column.
+		</p>
+		<p>
+			One of the most interesting parts was experimenting with flex-wrap and percentage widths. I could see how these properties affected the layout when resizing the browser window. This was especially exciting because I've been wanting to make my Interactive Sketchbook more responsive to different screen sizes. 
+		</p>
+		<p>
+			While experimenting with the h1 inside the header, I used temporary background colors to see how much space the element occupied. I was surprised by how align-self affected its position. When I tried aligning it toward the bottom, the text appeared higher than I expected, while the element seemed to occupy the entire height of the header. I eventually decided to use align-self: center because it gave me the alignment I wanted.
+		</p>
+		<p>
+			I also noticed that assigning widths to the child elements changed how they behaved when wrapping. I'm still experimenting with how widths, spacing, and wrapping work together, especially when the available screen space becomes smaller.
+		</p>
+	</section>
 </body>
 </html>

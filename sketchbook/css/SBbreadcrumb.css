@@ -1,0 +1,57 @@
+/* -------- BREADCRUMB NAVIGATION -------- */
+
+.sketchbookBreadcrumb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #F2F0D8;
+
+    font-family: "dm sans";
+    font-size: 12px;
+    color: #26241C;
+}
+
+nav.sketchbookBreadcrumb a {
+    color: #26241C;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.sketchbookBreadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.sketchbookBreadcrumb a,
+.sketchbookBreadcrumb span {
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+/* -------- PROCESS REFLECTION -------- */
+
+.exerciseReflection {
+    margin: 0%;
+    display: block;
+    background-color: #F2F0D8;
+    color: #26241C;
+    padding: 5% 15%;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    line-height: 1.55;
+    text-align: left;
+}
+
+.exerciseReflection h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.exerciseReflection p {
+    margin-bottom: 20px;
+}
