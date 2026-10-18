@@ -11,10 +11,6 @@
   box-sizing: border-box;
 }
 
-nav a {
-  font-family: 'Times New Roman', Times, serif;
-}
-
 body {
   background-color: #F2EBDC;
   color: #0d0d0d;
@@ -122,7 +118,7 @@ pro-tip: it is easier to change the background color/border of individual boxes 
 /* Flex item (right column hint-this is a child container) */
 
 
-section{
+/* section{
   margin: 2% 30% 2% 30%;
   width: 40;
 }
@@ -135,4 +131,4 @@ section h2 {
 section p{
   text-transform: none;
   line-height: 1.5;
-}
+} */

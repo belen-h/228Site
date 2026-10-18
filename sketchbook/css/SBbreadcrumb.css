@@ -36,6 +36,7 @@ nav.sketchbookBreadcrumb a {
 /* -------- PROCESS REFLECTION -------- */
 
 .exerciseReflection {
+    width: 40;
     margin: 0%;
     display: block;
     background-color: #F2F0D8;
@@ -49,9 +50,17 @@ nav.sketchbookBreadcrumb a {
 
 .exerciseReflection h2 {
     font-size: 28px;
+    padding-top: 4%;
     margin-bottom: 25px;
+    font-family: "edu nsw act cursive";
+    font-weight: 300;
+    text-transform:none;
+    letter-spacing: normal;
+    text-align: center;
 }
 
 .exerciseReflection p {
     margin-bottom: 20px;
+    line-height: 1.5;
+    text-transform: none;
 }

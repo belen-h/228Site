@@ -90,6 +90,7 @@ header nav a:hover {
 /*----- REFLECTION ---------*/
 
 .reflections {
+    /* width: 40; */
     border: 1px dashed black;
     font-size: 20px;
     line-height: 1.55;
