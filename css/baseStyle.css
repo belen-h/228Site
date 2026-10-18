@@ -84,7 +84,7 @@ header nav a:hover {
 .title {
     text-align: center;
     /* color: rgb(54, 58, 75); */
-    padding: 4% 4% 4% 4%;
+    padding: 4% 4% 0% 4%;
 }
 
 /*----- REFLECTION ---------*/
@@ -100,8 +100,26 @@ header nav a:hover {
     text-align: left;
 }
 
+.reflections h2 {
+    margin-bottom: 25px;
+}
+
+.reflections h3 {
+    margin: 0% 5% 1.5% 0%;
+}
+
+article {
+    padding-bottom: 15%;
+}
+
+article img {
+    width: 100%;
+    height: 100vph;
+}
+
 .reflectionImg {
     padding: 6%;
+    width: 100%;
 }
 
 .attribute {
