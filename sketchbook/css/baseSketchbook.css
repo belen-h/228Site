@@ -1,6 +1,7 @@
 /* -------- BREADCRUMB NAVIGATION -------- */
 
-.sketchbookBreadcrumb {
+nav.sketchbookBreadcrumb {
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -8,6 +9,9 @@
     justify-content: flex-start;
     gap: 10px;
 
+    width: 100vw;
+    margin: 0;
+    margin-left: calc(50% - 50vw);
     padding: 10px 20px; 
     background-color: #F2F0D8;
 
@@ -17,6 +21,8 @@
     text-transform: uppercase;
 }
 
+/*----------- BREADCRUMB LINK -------------*/
+
 nav.sketchbookBreadcrumb a {
     background-color: #F2F0D8;
     color: #26241C;
@@ -24,14 +30,21 @@ nav.sketchbookBreadcrumb a {
     font-weight: 800;
     text-shadow: none;
     border: none;
+
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-.sketchbookBreadcrumb a:hover {
+/*---------- HOVER ------ */
+
+nav.sketchbookBreadcrumb a:hover {
     text-decoration: underline;
 }
 
-.sketchbookBreadcrumb a,
-.sketchbookBreadcrumb span {
+
+nav.sketchbookBreadcrumb a,
+nav.sketchbookBreadcrumb span {
     white-space: nowrap;
     font-size: 12px;
     /* border: none; */
