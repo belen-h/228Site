@@ -1,4 +1,42 @@
-* {
+body {
+    height: 100dvh;
+    background: #F2F0D8 url("../img/belle_desk_1.jpeg") center / cover no-repeat fixed;
+}
+
+header {
+
+    min-height: 100vh;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #F2F0D8;
+    margin-bottom: 25px;
+}
+
+.nameLogo {
+    color: #F2F0D8;
+    font-size: 80px;
+}
+
+.nameLogo:hover {
+    font-size: 86px;
+}
+
+header nav {
+    width: 55%;
+}
+
+
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -65,8 +103,3 @@ header nav a {
     text-transform: uppercase;
     background-color: black;
     /* border: .5px dotted rgb(150 142 96); */
-}
-
-header a:hover{
-    color: red;
-}
