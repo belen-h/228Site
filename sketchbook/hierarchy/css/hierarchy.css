@@ -13,7 +13,10 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 body {
 
-    color: #26241C;
-    background-color: #F2F0D8;
+    color: rgb(216 187 167);
+    background-color:#26241C ;
+
+    /* color: #26241C;
+    background-color: #F2F0D8; */
 }
 
