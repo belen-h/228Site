@@ -9,17 +9,17 @@
     align-items: center;
     gap: 30px;
     list-style: none;
-
 }
 
-#sketchbookNav li {
+#sketchbookNav li ul {
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+#sketchbookNav li a {
     font-style: italic;
     font-size: 18px;
     border-bottom: .5px dotted rgb(128 82 65);
-}
-
-
-#sketchbookNav li a {
     text-decoration: none;
     color: rgb(91 79 78);
     font-weight: 500;

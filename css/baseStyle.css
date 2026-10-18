@@ -41,7 +41,8 @@ header {
 }
 
 .nameLogo:hover {
-    color: red;
+    font-size: 56px;
+    /* color: red; */
 }
 
 
@@ -74,7 +75,8 @@ header nav a {
 /*----- HOVER EFFECT----------------------- */
 
 header nav a:hover {
-    color: red;
+    font-size: 18px;
+    /* color: red; */
 }
 
 /*----- PAGE TITLE----------------------- */
