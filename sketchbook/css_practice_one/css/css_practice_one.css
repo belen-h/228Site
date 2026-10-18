@@ -38,7 +38,7 @@ footer a {
     text-decoration: none;
 }
 
-hr {
+section hr {
     border: none;
 }
 
@@ -46,7 +46,8 @@ ol {
     color: beige;
 }
 
-#reflection p {
+/* #reflection p {
     font-size: medium;
     color: black;
-}
+} */
+
