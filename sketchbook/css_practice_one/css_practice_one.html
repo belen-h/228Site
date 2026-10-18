@@ -6,15 +6,24 @@
 
 	<!-- Add link to stylesheet here -->
 	 <link rel="stylesheet" href="css/css_practice_one.css">
+	 <link rel="stylesheet" href="../css/baseSketchbook.css">
 
+	 <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+NSW+ACT+Cursive:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	
 	<header>
-		<nav>
-			<a href="../sketchbook.html">← Back to Sketchbook</a>
-		</nav>
+	<nav class="sketchbookBreadcrumb">
+		<a href="../sketchbook.html">← Sketchbook</a>
+		<span>/</span>
+		<a href="../checkpoint_one/checkpoint-one.html">Checkpoint One</a>
+		<span>/</span>
+		<span>CSS Basics – Practice One</span>
+	</nav>
 	</header>
 
 <section>
@@ -48,9 +57,10 @@
 
 <br>
 <hr>
-<section id="reflection">
-	<h3> Reflection</h3>
-	<p>Through this practice, I learned that CSS inheritance allows certain styles to flow from parent elements down to their children unless a child has a more specific style of its own. However, not every CSS property is inherited. I also learned how important selectors are when I want to target a specific element. I can use an element, class, or ID selector depending on what I want to change. When multiple CSS rules affect the same element, specificity hekps determine which rule is applied. If the rules have the same specificity, the rule that appears later takes priority.</p>
+<section class="exerciseReflection">
+	<h2> Process Reflection</h2>
+	<p>
+		Through this practice, I learned that CSS inheritance allows certain styles to flow from parent elements down to their children unless a child has a more specific style of its own. However, not every CSS property is inherited. I also learned how important selectors are when I want to target a specific element. I can use an element, class, or ID selector depending on what I want to change. When multiple CSS rules affect the same element, specificity hekps determine which rule is applied. If the rules have the same specificity, the rule that appears later takes priority.</p>
 	<p>
 		In order to add my website navigation, I had to move the title into its own section so I could place the navigation inside the header. I was nervous to change my existing HTML, but once I did, it was easier than I expected. While adding the main navigation to every page, I realized how helpful it is to organize each page similarly so I can easily make changes across the site. Working with relative paths was frustrating at first, but after completing the navigation, I felt much more comfortable moving between folders and linking my pages together and easily adjusting when I wanted to change the name of a page/folder/etc.
 	</p>
