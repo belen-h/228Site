@@ -105,11 +105,27 @@ header nav a:hover {
     font-weight: 300;
 }
 
+/* PROCESS REFLECTION TITLE */
 .reflections h3 {
+    text-transform: uppercase;
+    font-family: "dm sans";
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 4%;
+    margin-bottom: 25px;
+}
+
+.reflections h4 {
     text-align: right;
-    font-weight: 200;
-    font-size: 16px;
-    margin: 0% 5% 1.5% 0%;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.reflections h5 {
+    padding: 1% 1% 1.5% 0%;
 }
 
 .reflections p {
