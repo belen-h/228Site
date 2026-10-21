@@ -1,11 +1,8 @@
-/* -------RESET--------- */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 /* --------GENERAL WEBSITE STYLING------------ */
 
@@ -103,10 +100,22 @@ header nav a:hover {
 
 .reflections h2 {
     margin-bottom: 25px;
+    font-size: 18px;
+    font-family: "dm sans";
+    font-weight: 300;
 }
 
 .reflections h3 {
+    text-align: right;
+    font-weight: 200;
+    font-size: 16px;
     margin: 0% 5% 1.5% 0%;
+}
+
+.reflections p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5;
 }
 
 article {
@@ -123,11 +132,15 @@ article img {
     width: 100%;
 }
 
-.attribute {
+.attribute{
     color: rgb(191, 171, 143);
-    font-size: 8.5px;
+    font-size: 3px;
     padding: 0 .5% 8% .5%;
     text-decoration: none;
     text-align: center;
     font-family: "ibm plex mono";
+}
+
+code {
+    font-size: 12px;
 }

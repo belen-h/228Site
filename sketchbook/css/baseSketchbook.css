@@ -1,4 +1,4 @@
-/* -------- BREADCRUMB NAVIGATION -------- */
+/* -------- SKETCHBOOK NAVIGATION -------- */
 
 nav.sketchbookBreadcrumb {
     border: 1px dashed black;
@@ -21,7 +21,7 @@ nav.sketchbookBreadcrumb {
     text-transform: uppercase;
 }
 
-/*----------- BREADCRUMB LINK -------------*/
+/*----------- SKETCHNAV LINKs -------------*/
 
 nav.sketchbookBreadcrumb a {
     background-color: #F2F0D8;
