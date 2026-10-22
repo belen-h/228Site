@@ -40,10 +40,10 @@
 
         <h5>Looking Back</h5>
         <p>
-          Looking back at my original pages, what surprises me most is how little structure I had created for myself to build on. At the time, I felt limited by the number of HTML tags I knew how to use. I was mostly focused on getting things to appear where I wanted them, without thinking much about how I was organizing everything. Now I understand that I can reuse the same HTML elements and give them different classes or IDs to style them individually.
+          Looking back at my original pages, what surprises me most is how little structure I had created for myself to build on. At the time, I felt limited by the HTML tags I knew how to use. I was mostly focused on getting things to appear where I wanted them, without thinking much about how everything was organized. Now I understand that I can reuse the same HTML elements and use <code>classes</code> or <code>ids</code> to style them differently.
         </p>
         <p>
-          As I added more assignments to my Interactive Sketchbook, I started realizing that the way I had originally organized my pages wasn't going to work as the website continued growing.
+          As I added more assignments to my Interactive Sketchbook, I started realizing that my original approach wasn't going to work as the website continued growing. So I began redoing my HTML hierarchy structure so I could work with the layout with more unified groups. 
         </p>
          <img class="reflectionImg"
             src="../checkpoint_one/img/sketchbook-before.png" 
@@ -54,10 +54,17 @@
 
           <h5>Understanding Structure Before Styling</h5>
           <p>
-            My biggest turning point was understanding parent-child relationships through Flexbox. Before applying display: flex, I had to think about how the HTML elements were grouped and which elements would become flex containers and flex items. This pushed me to revisit my earlier pages and reorganize their HTML instead of immediately trying to fix everything through CSS.
+            My biggest turning point was understanding parent-child relationships through Flexbox. Before applying <code>display: flex</code>, I had to figure out how to group my HTML elements and identify which elements would become flex containers and flex items.
           </p>
           <p>
-            Once I started organizing my code into clearer sections, I found it much easier to understand what I was styling and why. I also began replacing unnecessary <code>br</code> tags with CSS properties like margin, padding, and gap.
+            I started by revisiting my Inspiration page, reorganizing its HTML and experimenting with FLebox to create a three-column layout. I then moved on to my About page, where I applied the same concepts to position my video and biography side by side. 
+          </p>
+          <p>
+            Working through these two pages made me reazlie how important the HTML strucutre was. I had previously relied on <code>br</code> tags for spacing and hadn't given much thought to how elements were grouped. Once I started organizing my code in clearer sections, I found it much easier to understand what I was styling and how I wanted it to look across the website. 
+          </p>
+          <p>
+            Through that I began understanding how <code>classes</code> and <code>id's</code> could help me target specific elements without affecting everything else.<br> 
+            <em>i <3 <code>classes</code> and <code>id's</code></em>!
           </p>
          <img class="reflectionImg"
             src="../checkpoint_one/img/parentChildNotes.jpg" 
@@ -68,19 +75,31 @@
 
           <h5>Creating a System That Can Grow</h5>
           <p>
-            One of my biggest accomplishments was creating <code>baseStyle.css</code> and <code>baseSketchbook.css</code>. At the beginning of this revision process, I actually struggled with the idea of using a shared stylesheet. Looking back, I realize that was partly because my HTML wasn't organized well enough for me to understand what could be shared across pages.
+            After reorganizing my Inspiration and About pages, I finally felt ready to create <code>baseStyle.css</code> and <code>baseSketchbook.css</code>. 
           </p>
           <p>
-            Once I fixed the structure, everything started making more sense. I could move repeated styling into the base stylesheet and remove unnecessary CSS from the individual pages. I was surprised by how little styling each page needed once the navigation, typography, and other shared elements were already taken care of.
+            At the beginning of this revision process, I actually struggled with the idea of using a shared stylesheet. Looking back, I realize that my HTML wasn't organized well enough for me to recognize which styles could be shared across pages.
           </p>
           <p>
-            One of my favorite moments was connecting the shared stylesheet to my Sketchbook page and watching the navigation transform automatically. After spending so much time updating each page individually, seeing those changes happen through one stylesheet was exciting.
+            Once I fixed the structure, everything started making more sense. I could move repeated styling into the base stylesheet and remove unnecessary CSS from individual pages. I was surprised by how little styling each page needed once the navigation, typography, and other shared elements were already taken care of.
+          </p>
+          <p>
+            One of my favorite moments was connecting the shared stylesheet to my Sketchbook page and watching the navigation transform automatically. After spending so much time updating each page individually, seeing those changes happen through one stylesheet was exciting!
+          </p>
+          <p>
+            I also decided to create a seperate breadcrumb navigation for the exercises within my Sketchbook. I wanted visitors to understand where they were and have a clear way to return to the larger website without changing the original design of each exercise. I also created shared styling for the process reflections because I realized they were just as important to the Sketchbook as the exercises themselves. Seeing how much these changes improved my earlier pages made me appreciate having a shared stylesheet even more.
           </p>
           <img class="reflectionImg"
-            src="../checkpoint_one/img/shared-stylesheet.png" 
-            alt="Visual Studio Code showing the shared baseStyle.css stylesheet, page-specific sketchbook.css, and organized sketchbook.html alongside a browser preview of the updated Sketchbook with consistent navigation and styled exercise links.">
+            src="../checkpoint_one/img/sketchbookb4Nav.png" 
+            alt="Earlier version of the Hierarchy Exercise showing experimental text formatting and an unstyled purple “Back to Sketchbook” link at the top. The original reflection appears as a wide block of text beneath the exercise.">
           <p class="attribute">
-            Separating shared CSS from page-specific styling helped me organize my code and create a consistent navigation system that could be updated across multiple pages.
+            Before: The Hierarchy Exercise had a basic return link and an unstyled reflection that was difficult to read.
+          </p>
+          <img class="reflectionImg"
+            src="../checkpoint_one/img/sketchbookWnav.png" 
+            alt="Updated Hierarchy Exercise with a beige breadcrumb navigation bar linking to Sketchbook and Checkpoint One. The original experimental typography remains unchanged, while the Process Reflection is organized into a narrower, centered section with improved spacing and typography.">
+          <p class="attribute">
+            After: Applying my shared Sketchbook stylesheet created consistent breadcrumb navigation and a more readable reflection while preserving the original exercise.
           </p>
 
           <h5>Where I Am Now</h5>
@@ -88,13 +107,15 @@
             I'm most satisfied with finally getting my Flexbox layouts to work how I envisioned them and having a more organized system for my website. I feel much more confident making changes because I understand how the HTML and CSS work together.
           </p>
           <p>
-            There are still things I want to improve, especially making the navigation responsive to different screen sizes. I'm also continuing to experiment with the visual style of my Sketchbook. For now, I like the simplicity of the notebook-inspired design and the navigation buttons inspired by my old school label maker.
+            I've also started thingking differently about my process reflections. Inintially, I treated them as something separate from the wesbite's design because they were mainly for dicumenting my work. Now I realize that they're an imporatnt part of the Interactive Sketchbok itself, so I wanted to give them the same attention as the rest of the website.
+          </p>
+          <p>
+            I'm still experimenting with the visual style of my Sketchbook, but for now I like the simplicity of the notebook inspired design and the navigation buttons inspired by my old school label maker. I wanted the main pages to feel connected while allowing the individual exercises to keep their own appearance. 
           </p>
           <p>
             The biggest difference is that I no longer feel like every new page requires starting over. I now have a foundation that I can continue building on, revising, and experimenting with as I learn more.
           </p>
       </article>
-
 
       <!-- STEP 4     9/30/2026 -->
       <article>
