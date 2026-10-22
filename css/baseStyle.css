@@ -48,7 +48,7 @@ header {
 header nav {
     display: flex;
     flex-direction: row;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     width: 55%;
 }
 
