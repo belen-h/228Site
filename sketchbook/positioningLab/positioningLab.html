@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+NSW+ACT+Cursive:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <!-- SKETCHBOOK BREADCRUMB -->
   	<nav class="sketchbookBreadcrumb">
@@ -30,22 +31,33 @@
   <header>
   	<h1>positioning elements</h1>
   </header>
+
   <section>
-    <h3>Static</h3><p>default, as-is behavior</p>
-    <h3>Relative</h3><p>this positions a child relative to its parent. by giving an element a relative position, we can place it outside the normal flow of where it would be- but it still impacts other elements</p>
-    <h3>Absolute</h3><p>this takes the element out of the line up and no longer impacts elements around it, BUT you have to apply position:relative to a parent container
+    <h3>Static</h3>
+      <p>default, as-is behavior</p>
+    <h3>Relative</h3>
+      <p>this positions a child relative to its parent. by giving an element a relative position, we can place it outside the normal flow of where it would be- but it still impacts other elements</p>
+    <h3>Absolute</h3>
+      <p>this takes the element out of the line up and no longer impacts elements around it, BUT you have to apply position:relative to a parent container
       </p>
-    <h3>Fixed</h3><p>positioned in relation to the browser window, it just stays put!</p>
-    <h3>***Sticky***</h3><p>this one is a little more advanced, and we won’t get into it yet, but perhaps challenge yourself and your project to see if you can figure it out?</p><br>
-    <h3>Next up: z-index</h3><p>this is how we control layering when we are using positioning. if an element has a position, you can add a z-index, the larger the number the closer to the top.<br>
-    0=bottom 100=top<br>
+    <h3>Fixed</h3>
+      <p>positioned in relation to the browser window, it just stays put!</p>
+    <h3>***Sticky***</h3>
+      <p>this one is a little more advanced, and we won't get into it yet, but perhaps challenge yourself and your project to see if you can figure it out?</p>
+    <br>
+    <h3>Next up: z-index</h3>
+      <p>this is how we control layering when we are using positioning. if an element has a position, you can add a z-index, the larger the number the closer to the top.
+    <br>
+    0=bottom 100=top
+    <br>
     think of z-index like the “bring to front” or “send to back” in design software.</p>
     <br>
     <p>for more information <a href="https://docs.google.com/presentation/d/1l5xqA2J6o3fNxPjc018LBTOWBgWTk6ssM02cNlLk4TU/edit?usp=sharing" target="_blank">click here</a></p>
   </section>
 
 	<div class="overlay-wrapper">
-	  <img src="img/knollflower.gif" alt="knoll flower" />
+	  <img src="img/knollflower.gif" 
+      alt="knoll flower" />
     <span class="dot"></span>
     <span class="dot"></span>
     <span class="dot"></span>
@@ -55,8 +67,28 @@
   <footer>
     <a href="#">footer nav</a>
     <h3>fix the footer to the bottom</h3>
- 
   </footer>
+
+  <section class="exerciseReflection">
+    <hr>
+    <h2>Process Reflection</h2>
+    <h3>October 28, 2026</h3>
+    <p>
+      This exercise helped me understand how quickly positioning can change a layout just by adjusting a few values in CSS. I enjoyed experimenting with different numbers and seeing which direction the elements moved in the browser. Using the temporary background colors was helpful because I could see where the containers were and how they interacted with other elements.
+    </p>
+    <p>
+      Relative and fixed positioning made the most sense to me. Absolute positioning was a little more confusing, but understanding parent-child relationships helped me see how an element's position depends on its container. I still feel like I need more practice with positioning values to become comfortable using it on my own.
+    </p>
+    <p>
+      The z-index property was one of the easiest concepts to understand because it reminded me of arranging layers in Photoshop. Once I understood how it worked, I could quickly change which elements appeared in front of or behind others.
+    </p>
+    <p>
+      One challenge was the fixed footer overlapping the text and making it difficult to read. I experimented with its width and eventually reduced the font size to make the overlap feel more intentional. I also moved the circles farther to the right so they wouldn't interfere with the main content.
+    </p>
+    <p>
+      This exercise made me more interested in experimenting with positioning in my Interactive Sketchbook, although I can see how easily it could cause readability problems if I'm not careful.
+    </p>
+  </section>
   
 </body>
 </html>

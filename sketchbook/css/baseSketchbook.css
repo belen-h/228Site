@@ -63,11 +63,18 @@ nav.sketchbookBreadcrumb span {
     display: block;
     background-color: #F2F0D8;
     color: #26241C;
-    padding: 5% 15%;
+    /* padding: 5% 15%; */
     font-family: "Cormorant Garamond", serif;
     font-size: 20px;
     line-height: 1.55;
     text-align: left;
+}
+
+section.exerciseReflection {
+    width: 80%;
+    margin: 50px auto;
+    padding: 5% 10%;
+    box-sizing: border-box;
 }
 
 .exerciseReflection h2 {
@@ -80,9 +87,16 @@ nav.sketchbookBreadcrumb span {
     font-weight: 300;
     /* text-transform:none; */
     text-transform: uppercase;
+    text-shadow: none;
     letter-spacing: 1px;
     text-align: center;
     border: none;
+}
+
+.exerciseReflection h3 {
+    font-size: 16px;
+    text-align: right;
+    text-shadow: none;
 }
 
 .exerciseReflection p {
